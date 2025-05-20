@@ -1,0 +1,89 @@
+/* PentagonCheckin.css */
+body, html {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #f3f3f3;
+}
+
+.container {
+  min-height: 100vh;
+  text-align: center;
+}
+
+.header {
+  background-color: #e5007d;
+  color: white;
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.menu-icon {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.in-circle {
+  background-color: white;
+  color: #e5007d;
+  border-radius: 9999px;
+  padding: 0 0.5rem;
+  margin-left: 0.25rem;
+}
+
+.main {
+  padding: 1rem;
+}
+
+.section-title {
+  color: #e5007d;
+  font-size: 1.5rem;
+  font-weight: 600;
+  margin-bottom: 1rem;
+}
+
+.card {
+  background: white;
+  border-radius: 1rem;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.card-title {
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+.card-subtitle {
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.status-button {
+  padding: 0.5rem 1.5rem;
+  border: none;
+  border-radius: 9999px;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: default;
+}
+
+.status-yes {
+  background-color: #68d391;
+  color: white;
+}
+
+.status-update {
+  background-color: #e2e2e2;
+  color: #999;
+}
